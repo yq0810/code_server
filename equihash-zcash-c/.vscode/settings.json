@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.qasm": "cpp",
+        "stat.h": "c",
+        "unistd.h": "c"
+    }
+}
