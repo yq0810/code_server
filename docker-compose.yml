@@ -1,0 +1,12 @@
+version: '2'
+services:
+  trgui:
+    build: .
+    environment: 
+      - PASSWORD=1234
+    volumes:
+      - ./equihash-zcash-c:/root/code:rw
+    ports:
+      - 8090:8080
+    privileged: true
+
